@@ -2,10 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body,
+:root {
+  height: 10%;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --seconde-color: #201f1f;
 }
 
 @media (prefers-color-scheme: dark) {
