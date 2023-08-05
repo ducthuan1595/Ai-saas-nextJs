@@ -8,7 +8,7 @@ import { MobileSidebar } from "./mobile-sidebar";
 
 const Navbar = () => {
   return (
-    <div className="fixed w-full z-50 flex bg-second-color justify-between items-center py-2 px-4 h-16">
+    <div className="fixed w-full z-50 flex bg-second-color justify-between items-center py-2 px-4 h-16 divide-slate-300">
       <div className="flex items-center">
         <MobileSidebar />
         <Link href={'/'}>
